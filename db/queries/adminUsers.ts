@@ -14,7 +14,7 @@ const insertAdminUser = async (adminUser: User) => {
   ])
 }
 
-export const userDetails = async (username: string) => {
+export const getUserDetails = async (username: string) => {
   if (!username) {
     return null
   }
